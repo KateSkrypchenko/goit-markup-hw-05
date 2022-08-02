@@ -242,8 +242,7 @@ img {
   border: none;
   cursor: pointer;
 
-  transition: box-shadow 250ms var(--timing-function),
-    background-color 250ms var(--timing-function);
+  transition: box-shadow 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -490,8 +489,7 @@ img {
   border-radius: 50%;
   color: var(--color-soc);
 
-  transition: background-color 250ms var(--timing-function),
-    color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function);
 }
 
 .soc-icon {
@@ -683,8 +681,7 @@ img {
   background-color: var(--button-bgc);
   cursor: pointer;
 
-  transition: color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function),
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
 }
 
