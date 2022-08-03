@@ -588,9 +588,12 @@ img {
   letter-spacing: 0.03em;
 }
 
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address-link {
   display: inline-block;
-  margin: 0 0 9px 0;
 
   color: var(--hero-color-text);
 
@@ -599,7 +602,6 @@ img {
 
 .footer-link {
   display: inline-block;
-  margin: 0 0 9px 0;
 
   color: var(--footer-text);
 
